@@ -1,0 +1,10 @@
+{
+  "verdict": "PASS",
+  "generatedAt": "2026-11-10T12:00:00.000Z",
+  "gates": [
+    { "id": "PG0", "name": "Demande autorisée", "passed": true, "errors": [] },
+    { "id": "PG1", "name": "Conformité schémas", "passed": true, "errors": [] },
+    { "id": "PG3", "name": "Chiffres sourcés", "passed": true, "errors": [] },
+    { "id": "PG11", "name": "Neutralité", "passed": true, "errors": [] }
+  ]
+}
