@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "generatedAt": "2026-11-11T19:45:00Z",
+  "gates": [
+    { "id": "PG0", "passed": true },
+    { "id": "PG6", "passed": true }
+  ]
+}
