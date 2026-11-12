@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "investigationId": "5ffa167b-54dc-40e0-837f-35536c42ab1f",
+  "generatedAt": "2026-11-12T01:43:05.535Z",
+  "verdict": "BLOCK",
+  "gates": [
+    {
+      "id": "PG0",
+      "name": "Demande autorisée, budget, kill switch OFF",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG1",
+      "name": "Conformité schémas (ajv) + invariants",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": [
+        "article.schema valide",
+        "evidence-pack.schema valide"
+      ]
+    },
+    {
+      "id": "PG2",
+      "name": "Sources indépendantes + primaire",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG3",
+      "name": "Chiffres sourcés + locator",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG4",
+      "name": "Causalité validée/reformulée",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "claim causale de type inference : claim-270f067f-fafc-41d1-91f0-b12974fd0a3c",
+        "claim causale de type inference : claim-748c4af1-ba92-415a-9310-f4cdd670fe62"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "PG5",
+      "name": "Conséquences France sourcées ou hypothèse",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG6",
+      "name": "Secrets, PII, licence",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG7",
+      "name": "Lint éditorial",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG8",
+      "name": "Risque juridique/diffamation",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG9",
+      "name": "Kill switch OFF + quotas (sortie)",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG10",
+      "name": "Build CI + attestation (rejeu en Phase 1)",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG11",
+      "name": "Neutralité et intégrité (règles + vérification indépendante)",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    }
+  ],
+  "errors": [
+    "démo pilote : contrôle en échec forcé"
+  ],
+  "warnings": [
+    "claim causale de type inference : claim-270f067f-fafc-41d1-91f0-b12974fd0a3c",
+    "claim causale de type inference : claim-748c4af1-ba92-415a-9310-f4cdd670fe62"
+  ],
+  "pg11": {
+    "id": "PG11",
+    "name": "Neutralité et intégrité (règles + vérification indépendante)",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "evidence": []
+  }
+}
