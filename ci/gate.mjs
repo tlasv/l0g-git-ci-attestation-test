@@ -25,9 +25,11 @@ try {
   fail('gate-report.json illisible (JSON invalide)');
 }
 
-// Verdict : seul PASS autorise la publication.
-if (report.verdict !== 'PASS') {
-  fail(`verdict ${report.verdict ?? 'absent'} (attendu PASS)`);
+// Verdict : seuls PASS et PASS_WITH_WARNINGS autorisent la publication (miroir du schéma
+// gate-report : verdict enum PASS | PASS_WITH_WARNINGS | BLOCK ; seul BLOCK bloque).
+const PUBLISHABLE_VERDICTS = ['PASS', 'PASS_WITH_WARNINGS'];
+if (!PUBLISHABLE_VERDICTS.includes(report.verdict)) {
+  fail(`verdict ${report.verdict ?? 'absent'} (attendu PASS ou PASS_WITH_WARNINGS)`);
 }
 
 // Absence de secret en clair dans le contenu publié (miroir PG6 / audit-secrets).
