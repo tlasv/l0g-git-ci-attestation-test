@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "investigationId": "d1c3bae6-67c3-4a76-90a8-b9fbe97daf6f",
+  "generatedAt": "2026-11-12T10:20:40.893Z",
+  "verdict": "PASS_WITH_WARNINGS",
+  "gates": [
+    {
+      "id": "PG0",
+      "name": "Demande autorisée, budget, kill switch OFF",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG1",
+      "name": "Conformité schémas (ajv) + invariants",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": [
+        "article.schema valide",
+        "evidence-pack.schema valide"
+      ]
+    },
+    {
+      "id": "PG2",
+      "name": "Sources indépendantes + primaire",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG3",
+      "name": "Chiffres sourcés + locator",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG4",
+      "name": "Causalité validée/reformulée",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "claim causale de type inference : claim-09fa09bb-24bd-464d-bcf1-05bf8126e904"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "PG5",
+      "name": "Conséquences France sourcées ou hypothèse",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG6",
+      "name": "Secrets, PII, licence",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG7",
+      "name": "Lint éditorial",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG8",
+      "name": "Risque juridique/diffamation",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG9",
+      "name": "Kill switch OFF + quotas (sortie)",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG10",
+      "name": "Build CI + attestation (rejeu en Phase 1)",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG11",
+      "name": "Neutralité et intégrité (règles + vérification indépendante)",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": []
+    },
+    {
+      "id": "PG12",
+      "name": "Non-vacuité du corps + sections obligatoires",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": [
+        "corps non vide, 6 sections présentes, sections substantielles"
+      ]
+    },
+    {
+      "id": "PG13",
+      "name": "Vérification indépendante des affirmations",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": [
+        "verification-report 35580b77cbe06ace814a521ea943b485d3ec3bba3827c4cdd25e5c7b74fe2d7d (PASS)"
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "claim causale de type inference : claim-09fa09bb-24bd-464d-bcf1-05bf8126e904"
+  ],
+  "conflicts": [],
+  "revision": {
+    "id": "126f19ea-7abf-44ae-9885-7197205c36ef",
+    "articleId": "deficit-public-francais-et-loi-de-finances-2026",
+    "investigationId": "d1c3bae6-67c3-4a76-90a8-b9fbe97daf6f",
+    "revisionNumber": 1,
+    "actor": "Moteur l0g (prototype)",
+    "reason": "investigation d1c3bae6-67c3-4a76-90a8-b9fbe97daf6f",
+    "diffSummary": "première révision",
+    "articleHash": "4e86a0d2e388f0e69e60dd413a748d2a26b8f7ecfef16af03e4899c9034b8629",
+    "markdownHash": "d6926d93472f54ae56aa5eb3176b7a84f72d96dbbf325c458b9b4834a789807b",
+    "prevRevisionId": null,
+    "createdAt": "2026-11-12T10:20:40.803Z"
+  },
+  "verification": {
+    "reportHash": "35580b77cbe06ace814a521ea943b485d3ec3bba3827c4cdd25e5c7b74fe2d7d",
+    "verdict": "PASS",
+    "generatedAt": "2026-11-12T10:20:40.830Z"
+  },
+  "pg11": {
+    "id": "PG11",
+    "name": "Neutralité et intégrité (règles + vérification indépendante)",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "evidence": []
+  }
+}
