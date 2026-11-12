@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "investigationId": "5ffa167b-54dc-40e0-837f-35536c42ab1f",
-  "generatedAt": "2026-11-12T01:43:05.535Z",
+  "generatedAt": "2026-11-12T05:36:16.419Z",
   "verdict": "PASS_WITH_WARNINGS",
   "gates": [
     {
@@ -105,6 +105,16 @@
       "errors": [],
       "warnings": [],
       "evidence": []
+    },
+    {
+      "id": "PG12",
+      "name": "Non-vacuité du corps + sections obligatoires",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "evidence": [
+        "corps non vide, 6 sections présentes"
+      ]
     }
   ],
   "errors": [],
@@ -112,6 +122,8 @@
     "claim causale de type inference : claim-270f067f-fafc-41d1-91f0-b12974fd0a3c",
     "claim causale de type inference : claim-748c4af1-ba92-415a-9310-f4cdd670fe62"
   ],
+  "conflicts": [],
+  "revision": null,
   "pg11": {
     "id": "PG11",
     "name": "Neutralité et intégrité (règles + vérification indépendante)",
